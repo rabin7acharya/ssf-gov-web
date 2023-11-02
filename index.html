@@ -258,7 +258,7 @@
           </div>
 
           <div
-            class="dropdown-menu z-1 w-full rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 border border-transparent focus:outline-none hover:border hover:border-blue-800"
+            class="absolute dropdown-menu top-32 z-10 w-full rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 border border-transparent focus:outline-none hover:border hover:border-blue-800"
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="menu-button"
@@ -335,7 +335,9 @@
                 href=""
                 class="card flex items-center gap-4 rounded-lg px-5 h-24 bg-white shadow-sm hover:shadow-2xl transition-shadow border-l-8 text-blue-800 hover:text-blue-600 border-blue-700 hover:border-blue-500 cursor-pointer"
               >
-                <span class="text-xl"><i class="fa-solid fa-file-circle-plus"></i></span>
+                <span class="text-xl"
+                  ><i class="fa-solid fa-file-circle-plus"></i
+                ></span>
                 <h5 class="font-bold">रोजगारदाता सूचीकरण</h5>
               </a>
 
@@ -343,42 +345,56 @@
                 href=""
                 class="card flex items-center gap-4 rounded-lg px-5 h-24 bg-white shadow-sm hover:shadow-2xl transition-shadow border-l-8 text-blue-800 hover:text-blue-600 border-blue-700 hover:border-blue-500 cursor-pointer"
               >
-                <span class="text-xl"><i class="fa-solid fa-comment-dollar"></i></span>
-                <h5 class="font-bold">सुबिधा दाबी भुक्तानी अवस्थाको जांच गर्नुहोस</h5>
+                <span class="text-xl"
+                  ><i class="fa-solid fa-comment-dollar"></i
+                ></span>
+                <h5 class="font-bold">
+                  सुबिधा दाबी भुक्तानी अवस्थाको जांच गर्नुहोस
+                </h5>
               </a>
               <a
                 href=""
                 class="card flex items-center gap-4 rounded-lg px-5 h-24 bg-white shadow-sm hover:shadow-2xl transition-shadow border-l-8 text-blue-800 hover:text-blue-600 border-blue-700 hover:border-blue-500 cursor-pointer"
               >
-                <span class="text-xl"><i class="fa-solid fa-id-badge"></i></span>
+                <span class="text-xl"
+                  ><i class="fa-solid fa-id-badge"></i
+                ></span>
                 <h5 class="font-bold">KYC update गर्नुहोस</h5>
               </a>
               <a
                 href=""
                 class="card flex items-center gap-4 rounded-lg px-5 h-24 bg-white shadow-sm hover:shadow-2xl transition-shadow border-l-8 text-blue-800 hover:text-blue-600 border-blue-700 hover:border-blue-500 cursor-pointer"
               >
-                <span class="text-xl"><i class="fa-solid fa-briefcase"></i></span>
+                <span class="text-xl"
+                  ><i class="fa-solid fa-briefcase"></i
+                ></span>
                 <h5 class="font-bold">Non मेडिकल सुबिधा दाबि गर्नुहोस</h5>
               </a>
               <a
                 href=""
                 class="card flex items-center gap-4 rounded-lg px-5 h-24 bg-white shadow-sm hover:shadow-2xl transition-shadow border-l-8 text-blue-800 hover:text-blue-600 border-blue-700 hover:border-blue-500 cursor-pointer"
               >
-                <span class="text-xl"><i class="fa-solid fa-sack-dollar"></i></span>
+                <span class="text-xl"
+                  ><i class="fa-solid fa-sack-dollar"></i
+                ></span>
                 <h5 class="font-bold">योगदान रकम जांच गर्नुहोस</h5>
               </a>
               <a
                 href=""
                 class="card flex items-center gap-4 rounded-lg px-5 h-24 bg-white shadow-sm hover:shadow-2xl transition-shadow border-l-8 text-blue-800 hover:text-blue-600 border-blue-700 hover:border-blue-500 cursor-pointer"
               >
-                <span class="text-xl"><i class="fa-solid fa-person-circle-question"></i></span>
+                <span class="text-xl"
+                  ><i class="fa-solid fa-person-circle-question"></i
+                ></span>
                 <h5 class="font-bold">गुनासो</h5>
               </a>
               <a
                 href=""
                 class="card flex items-center gap-4 rounded-lg px-5 h-24 bg-white shadow-sm hover:shadow-2xl transition-shadow border-l-8 text-blue-800 hover:text-blue-600 border-blue-700 hover:border-blue-500 cursor-pointer"
               >
-                <span class="text-xl"><i class="fa-solid fa-hospital"></i></span>
+                <span class="text-xl"
+                  ><i class="fa-solid fa-hospital"></i
+                ></span>
                 <h5 class="font-bold">आबद्द अस्पतालहरु</h5>
               </a>
               <a
@@ -638,7 +654,7 @@
                   </h3>
                 </div>
                 <div
-                  class="fact-grid bg-white grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-white overflow-hidden rounded-b-lg"
+                  class="fact-grid bg-white grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 text-white overflow-hidden rounded-b-lg"
                 >
                   <div
                     class="fact-card border flex flex-col items-center justify-center px-8 py-12 text-blue-800 hover:bg-blue-50"
@@ -646,15 +662,13 @@
                     <div
                       class="icon w-16 h-16 flex items-center place-content-center mb-4 text-3xl"
                     >
-                      <img src="https://ssf.gov.np/logo/employer.svg" alt="">
+                      <img src="https://ssf.gov.np/logo/employer.svg" alt="" />
                     </div>
                     <div
                       class="fact-info text-center flex flex-col gap-3 leading-6"
                     >
                       <h3 class="text-4xl font-extrabold">१८३९४</h3>
-                      <p class="text-slate-500">
-                        सूचीकृत रोजगारदाता
-                      </p>
+                      <p class="text-slate-500">सूचीकृत रोजगारदाता</p>
                     </div>
                   </div>
                   <div
@@ -663,15 +677,16 @@
                     <div
                       class="icon w-16 h-16 flex items-center place-content-center mb-4 text-3xl"
                     >
-                      <img src="https://ssf.gov.np/logo/contributers.svg" alt="">
+                      <img
+                        src="https://ssf.gov.np/logo/contributers.svg"
+                        alt=""
+                      />
                     </div>
                     <div
                       class="fact-info text-center flex flex-col gap-3 leading-6"
                     >
                       <h3 class="text-4xl font-extrabold">८६७९६६</h3>
-                      <p class="text-slate-500">
-                        सूचीकृत योगदानकर्ता
-                      </p>
+                      <p class="text-slate-500">सूचीकृत योगदानकर्ता</p>
                     </div>
                   </div>
 
@@ -681,15 +696,13 @@
                     <div
                       class="icon w-16 h-16 flex items-center place-content-center mb-4 text-3xl"
                     >
-                      <img src="https://ssf.gov.np/logo/contribution.svg">
+                      <img src="https://ssf.gov.np/logo/contribution.svg" />
                     </div>
                     <div
                       class="fact-info text-center flex flex-col gap-3 leading-6"
                     >
                       <h3 class="text-4xl font-extrabold">४३८३.४८ करोड</h3>
-                      <p class="text-slate-500">
-                        कुल योगदान रकम
-                      </p>
+                      <p class="text-slate-500">कुल योगदान रकम</p>
                     </div>
                   </div>
                   <div
@@ -698,15 +711,13 @@
                     <div
                       class="icon w-16 h-16 flex items-center place-content-center mb-4 text-3xl"
                     >
-                    <img src="https://ssf.gov.np/logo/claim_payment.svg">
+                      <img src="https://ssf.gov.np/logo/claim_payment.svg" />
                     </div>
                     <div
                       class="fact-info text-center flex flex-col gap-3 leading-6"
                     >
                       <h3 class="text-4xl font-extrabold">६२६.४१ करोड</h3>
-                      <p class="text-slate-500">
-                        कुल दावी भुक्तानी रकम
-                      </p>
+                      <p class="text-slate-500">कुल दावी भुक्तानी रकम</p>
                     </div>
                   </div>
 
@@ -774,9 +785,7 @@
                       class="fact-info text-center flex flex-col gap-3 leading-6"
                     >
                       <h3 class="text-4xl font-extrabold">५३४.२१ करोड</h3>
-                      <p class="text-slate-500">
-                        अवकाश दावी रकम
-                      </p>
+                      <p class="text-slate-500">अवकाश दावी रकम</p>
                     </div>
                   </div>
                 </div>
@@ -788,146 +797,144 @@
               >
                 <a
                   href="#"
-                  class="sector-card p-8 group rounded-md border bg-blue-800 flex flex-col items-start justify-center gap-6 text-white hover:shadow-2xl transition-all"
+                  class="sector-card p-8 group rounded-md border bg-white flex flex-col items-start justify-center gap-2 text-blue-800 hover:shadow-2xl transition-all"
                 >
-                  <div class="row flex justify-between w-full">
+                  <div class="row flex justify-between w-full mb-4">
                     <div
-                      class="icon flex items-center justify-center h-16 w-16 rounded-full bg-white text-blue-800 text-2xl shadow-2xl"
+                      class="icon flex items-center justify-center h-12 w-12 rounded-full bg-blue-800 text-blue-50 text-xl shadow-2xl"
                     >
                       <i class="fa-solid fa-user-tie"></i>
                     </div>
                     <div
-                      class="icon flex items-center group-hover:bg-white group-hover:text-blue-800 transition-colors justify-center h-16 w-16 rounded-full border border-white text-white text-2xl shadow-2xl"
+                      class="icon flex items-center group-hover:bg-blue-800 group-hover:text-blue-50 transition-colors justify-center h-12 w-12 rounded-full border border-blue-800 text-blue-800 text-xl shadow-2xl"
                     >
                       <i class="fa-solid fa-arrow-up rotate-45"></i>
                     </div>
                   </div>
-                  <h3 class="text-2xl font-bold">आधिकारीक सेक्टर</h3>
-                  <p class="text-blue-200">
+                  <h3 class="text-2xl font-bold">औपचारिक तर्फ</h3>
+                  <p class="text-slate-500">
                     जनसंख्या डडेल्धुरा जिल्लाको सदरमुकाम वरपरका ५ गाउँ विकास
                     समितिहरु (डोटी घटाल, सहस्रलिङ्ग, खलङ्गा,उग्रतारा र भुमिराज)
                   </p>
-                  <!-- <a href="" class="flex items-center gap-2 font-bold hover:gap-3 transition-all"><span class="hover:underline">प्रवेश गर्नुहोस</span><i class="fa-solid fa-arrow-right-long"></i></a> -->
                 </a>
 
                 <a
                   href="#"
-                  class="sector-card p-8 group rounded-md border bg-blue-800 flex flex-col items-start justify-center gap-6 text-white hover:shadow-2xl transition-all"
+                  class="sector-card p-8 group rounded-md border bg-white flex flex-col items-start justify-center gap-2 text-blue-800 hover:shadow-2xl transition-all"
                 >
-                  <div class="row flex justify-between w-full">
+                  <div class="row flex justify-between w-full mb-4">
                     <div
-                      class="icon flex items-center justify-center h-16 w-16 rounded-full bg-white text-blue-800 text-2xl shadow-2xl"
+                      class="icon flex items-center justify-center h-12 w-12 rounded-full bg-blue-800 text-blue-50 text-xl shadow-2xl"
                     >
                       <i class="fa-solid fa-people-arrows"></i>
                     </div>
                     <div
-                      class="icon flex items-center group-hover:bg-white group-hover:text-blue-800 transition-colors justify-center h-16 w-16 rounded-full border border-white text-white text-2xl shadow-2xl"
+                      class="icon flex items-center group-hover:bg-blue-800 group-hover:text-blue-50 transition-colors justify-center h-12 w-12 rounded-full border border-blue-800 text-blue-800 text-xl shadow-2xl"
                     >
                       <i class="fa-solid fa-arrow-up rotate-45"></i>
                     </div>
                   </div>
-                  <h3 class="text-2xl font-bold">अनाधिकारीक सेक्टर</h3>
-                  <p class="text-blue-200">
+                  <h3 class="text-2xl font-bold">अनौपचारिक तर्फ</h3>
+                  <p class="text-slate-500">
                     जनसंख्या डडेल्धुरा जिल्लाको सदरमुकाम वरपरका ५ गाउँ विकास
                     समितिहरु (डोटी घटाल, सहस्रलिङ्ग, खलङ्गा,उग्रतारा र भुमिराज)
                   </p>
-                  <!-- <a href="" class="flex items-center gap-2 font-bold hover:gap-3 transition-all"><span class="hover:underline">प्रवेश गर्नुहोस</span><i class="fa-solid fa-arrow-right-long"></i></a> -->
                 </a>
 
                 <a
                   href="#"
-                  class="sector-card p-8 group rounded-md border bg-blue-800 flex flex-col items-start justify-center gap-6 text-white hover:shadow-2xl transition-all"
+                  class="sector-card p-8 group rounded-md border bg-white flex flex-col items-start justify-center gap-2 text-blue-800 hover:shadow-2xl transition-all"
                 >
-                  <div class="row flex justify-between w-full">
+                  <div class="row flex justify-between w-full mb-4">
                     <div
-                      class="icon flex items-center justify-center h-16 w-16 rounded-full bg-white text-blue-800 text-2xl shadow-2xl"
+                      class="icon flex items-center justify-center h-12 w-12 rounded-full bg-blue-800 text-blue-50 text-xl shadow-2xl"
                     >
                       <i class="fa-solid fa-chalkboard-user"></i>
                     </div>
                     <div
-                      class="icon flex items-center group-hover:bg-white group-hover:text-blue-800 transition-colors justify-center h-16 w-16 rounded-full border border-white text-white text-2xl shadow-2xl"
+                      class="icon flex items-center group-hover:bg-blue-800 group-hover:text-blue-50 transition-colors justify-center h-12 w-12 rounded-full border border-blue-800 text-blue-800 text-xl shadow-2xl"
                     >
                       <i class="fa-solid fa-arrow-up rotate-45"></i>
                     </div>
                   </div>
-                  <h3 class="text-2xl font-bold">स्वरोजगार शाखा</h3>
-                  <p class="text-blue-200">
+                  <h3 class="text-2xl font-bold">स्वरोजगार तर्फ</h3>
+                  <p class="text-slate-500">
                     जनसंख्या डडेल्धुरा जिल्लाको सदरमुकाम वरपरका ५ गाउँ विकास
                     समितिहरु (डोटी घटाल, सहस्रलिङ्ग, खलङ्गा,उग्रतारा र भुमिराज)
                   </p>
-                  <!-- <a href="" class="flex items-center gap-2 font-bold hover:gap-3 transition-all"><span class="hover:underline">प्रवेश गर्नुहोस</span><i class="fa-solid fa-arrow-right-long"></i></a> -->
                 </a>
 
                 <a
                   href="#"
-                  class="sector-card p-8 group rounded-md border bg-blue-800 flex flex-col items-start justify-center gap-6 text-white hover:shadow-2xl transition-all"
+                  class="sector-card p-8 group rounded-md border bg-white flex flex-col items-start justify-center gap-2 text-blue-800 hover:shadow-2xl transition-all"
                 >
-                  <div class="row flex justify-between w-full">
+                  <div class="row flex justify-between w-full mb-4">
                     <div
-                      class="icon flex items-center justify-center h-16 w-16 rounded-full bg-white text-blue-800 text-2xl shadow-2xl"
+                      class="icon flex items-center justify-center h-12 w-12 rounded-full bg-blue-800 text-blue-50 text-xl shadow-2xl"
                     >
                       <i class="fa-solid fa-street-view"></i>
                     </div>
                     <div
-                      class="icon flex items-center group-hover:bg-white group-hover:text-blue-800 transition-colors justify-center h-16 w-16 rounded-full border border-white text-white text-2xl shadow-2xl"
+                      class="icon flex items-center group-hover:bg-blue-800 group-hover:text-blue-50 transition-colors justify-center h-12 w-12 rounded-full border border-blue-800 text-blue-800 text-xl shadow-2xl"
                     >
                       <i class="fa-solid fa-arrow-up rotate-45"></i>
                     </div>
                   </div>
-                  <h3 class="text-2xl font-bold">बसाईसराई विविध</h3>
-                  <p class="text-blue-200">
+                  <h3 class="text-2xl font-bold">आप्रवासी तर्फ</h3>
+                  <p class="text-slate-500">
                     जनसंख्या डडेल्धुरा जिल्लाको सदरमुकाम वरपरका ५ गाउँ विकास
                     समितिहरु (डोटी घटाल, सहस्रलिङ्ग, खलङ्गा,उग्रतारा र भुमिराज)
                   </p>
-                  <!-- <a href="" class="flex items-center gap-2 font-bold hover:gap-3 transition-all"><span class="hover:underline">प्रवेश गर्नुहोस</span><i class="fa-solid fa-arrow-right-long"></i></a> -->
                 </a>
               </div>
             </section>
-            <section class="display-section py-24 overflow-hidden">
+            <section class="display-section py-8 overflow-hidden">
               <div
-                class="container mx-auto px-4 w-full flex gap-24 md:gap-16 flex-wrap-reverse justify-start lg:justify-center items-center"
+                class="container mx-auto px-4 gap-14 md:gap-0 grid grid-cols-1 md:grid-cols-2 w-full"
               >
                 <div
-                  class="display-left w-10/12 md:w-5/12 lg:w-5/12 flex flex-col flex-wrap gap-4"
+                  class="display-left order-2 md:order-1 gap-6 flex flex-col flex-wrap"
                 >
                   <div
-                    class="line h-[1px] w-40 bg-blue-500 flex items-center justify-center rounded-full"
+                    class="h-[1px] w-40 bg-blue-500 flex items-center justify-center rounded-full"
                   >
-                    <p class="text-blue-500 p-1 bg-white">सामाजिक सुरक्षा एप</p>
+                    <p class="text-blue-500 p-1 bg-blue-50">
+                      सामाजिक सुरक्षा एप
+                    </p>
                   </div>
-                  <h1 class="text-5xl font-extrabold text-blue-800 leading-normal">
+                  <h1 class="text-4xl font-extrabold text-blue-800">
                     सामाजिक सुरक्षा कोष एप डाउनलोड गर्नुभयो त?
                   </h1>
                   <p class="text-slate-500 leading-relaxed">
-                    मोबाइल एप बाट विशेष सापटीको लागि निवेदन दिने तरिका तथा योगदानकर्ता
-                    सापटी निर्देशिका २०७९ वमोजिम कोषवाट प्रवाह हुने सापटी विशेष सापटीको
-                    लागि निवेदन दिने तरिका
+                    मोबाइल एप बाट विशेष सापटीको लागि निवेदन दिने तरिका तथा
+                    योगदानकर्ता सापटी निर्देशिका २०७९ वमोजिम कोषवाट प्रवाह हुने
+                    सापटी विशेष सापटीको लागि निवेदन दिने तरिका
                   </p>
-                  <div class="display-ctas flex gap-4 mt-8 transition-border">
+                  <div class="display-ctas flex gap-2 mt-8 transition-border">
                     <a href="" class="w-40">
                       <img
                         src="./assets/images/download-btn-playstore.png"
                         alt=""
-                        class="app-img w-full hover:border-2 border-blue-900 rounded-md"
+                        class="app-img w-full border-white border-4 hover:border-blue-800 rounded-lg transition-border"
                       />
                     </a>
                     <a href="" class="w-40">
                       <img
                         src="./assets/images/download-btn-appstore.png"
                         alt=""
-                        class="app-img w-full hover:border-2 border-blue-900 rounded-md"
+                        class="app-img w-full border-white border-4 hover:border-blue-800 rounded-lg transition-border"
                       />
                     </a>
                   </div>
                 </div>
                 <div
-                  class="display-right w-6/10 md:w-5/12 lg:8/12 flex justify-center items-center relative"
+                  class="display-right order-1 md:order-2 flex justify-center items-center relative"
                 >
-                  <div class="dispaly-img w-8/12 lg:w-6/12">
+                  <div class="dispaly-img w-8/12 lg:w-12/12">
                     <img
                       src="./assets/images/app-banner.png"
                       alt=""
-                      class="w-full object-cover object-center"
+                      class="w-full h-80 object-contain"
                     />
                   </div>
                   <div
@@ -940,9 +947,9 @@
                     />
                   </div>
                 </div>
-              </section>
-              
+              </div>
             </section>
+          </section>
 
           <section
             class="right-section h-fit col-span-5 md:col-span-6 lg:col-span-1 grid items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6"
@@ -999,8 +1006,7 @@
                   <dl class="flex-grow flex flex-col gap-3 justify-between">
                     <dt class="sr-only">Email</dt>
                     <dd class="">
-                      <span
-                        class="px-2 py-1 text-slate-500 text-xs font-medium "
+                      <span class="px-2 py-1 text-slate-500 text-xs font-medium"
                         >ed@ssf.gov.np</span
                       >
                     </dd>
@@ -1029,11 +1035,10 @@
                     >
                   </dd>
                 </dl>
-                <dl class="flex-grow flex flex-col gap-3 justify-between">
+                <dl class="flex-grow flex flex-col gap-3 mt-2 justify-between">
                   <dt class="sr-only">Mobile</dt>
                   <dd class="">
-                    <span
-                      class="px-2 py-1 text-slate-500 text-sm font-medium "
+                    <span class="px-2 py-1 text-slate-500 text-sm font-medium"
                       >९८५१२१७८९२</span
                     >
                   </dd>
@@ -1041,8 +1046,7 @@
                 <dl class="flex-grow flex flex-col gap-3 justify-between">
                   <dt class="sr-only">Email</dt>
                   <dd class="">
-                    <span
-                      class="px-2 py-1 text-slate-500 text-sm font-medium "
+                    <span class="px-2 py-1 text-slate-500 text-sm font-medium"
                       >bibekpanthee@ssf.gov.np</span
                     >
                   </dd>
@@ -1070,11 +1074,10 @@
                     >
                   </dd>
                 </dl>
-                <dl class="flex-grow flex flex-col gap-3 justify-between">
+                <dl class="flex-grow flex flex-col gap-3 mt-2 justify-between">
                   <dt class="sr-only">Mobile</dt>
                   <dd class="">
-                    <span
-                      class="px-2 py-1 text-slate-500 text-sm font-medium "
+                    <span class="px-2 py-1 text-slate-500 text-sm font-medium"
                       >९८५१३२१०९४</span
                     >
                   </dd>
@@ -1082,8 +1085,7 @@
                 <dl class="flex-grow flex flex-col gap-3 justify-between">
                   <dt class="sr-only">Email</dt>
                   <dd class="">
-                    <span
-                      class="px-2 py-1 text-slate-500 text-sm font-medium "
+                    <span class="px-2 py-1 text-slate-500 text-sm font-medium"
                       >suchana@ssf.gov.np</span
                     >
                   </dd>
@@ -1111,11 +1113,10 @@
                     >
                   </dd>
                 </dl>
-                <dl class="flex-grow flex flex-col gap-3 justify-between">
+                <dl class="flex-grow flex flex-col gap-3 mt-2 justify-between">
                   <dt class="sr-only">Mobile</dt>
                   <dd class="">
-                    <span
-                      class="px-2 py-1 text-slate-500 text-sm font-medium "
+                    <span class="px-2 py-1 text-slate-500 text-sm font-medium"
                       >९८५११९८८९८</span
                     >
                   </dd>
@@ -1123,8 +1124,7 @@
                 <dl class="flex-grow flex flex-col gap-3 justify-between">
                   <dt class="sr-only">Email</dt>
                   <dd class="">
-                    <span
-                      class="px-2 py-1 text-slate-500 text-sm font-medium "
+                    <span class="px-2 py-1 text-slate-500 text-sm font-medium"
                       >rohitregmi@ssf.gov.np</span
                     >
                   </dd>
@@ -1152,11 +1152,10 @@
                     >
                   </dd>
                 </dl>
-                <dl class="flex-grow flex flex-col gap-3 justify-between">
+                <dl class="flex-grow flex flex-col gap-3 mt-2 justify-between">
                   <dt class="sr-only">Mobile</dt>
                   <dd class="">
-                    <span
-                      class="px-2 py-1 text-slate-500 text-sm font-medium "
+                    <span class="px-2 py-1 text-slate-500 text-sm font-medium"
                       >९८५११६१९७२</span
                     >
                   </dd>
@@ -1164,19 +1163,19 @@
                 <dl class="flex-grow flex flex-col gap-3 justify-between">
                   <dt class="sr-only">Email</dt>
                   <dd class="">
-                    <span
-                      class="px-2 py-1 text-slate-500 text-sm font-medium "
+                    <span class="px-2 py-1 text-slate-500 text-sm font-medium"
                       >gunaso@ssf.gov.np</span
                     >
                   </dd>
                 </dl>
               </div>
             </li>
+          </section>
         </div>
       </div>
     </section>
     <footer
-      class="bg-blue-950 flex flex-col gap-10 pt-16 md:pt-24 px-4 mt-8 overflow-hidden"
+      class="bg-blue-950 flex flex-col gap-10 pt-16 md:pt-24 px-4 overflow-hidden"
     >
       <div
         class="container mx-auto grid gap-16 justify-between grid-cols-1 md:grid-cols-3 lg:grid-cols-10"
