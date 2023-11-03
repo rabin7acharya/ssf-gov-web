@@ -118,21 +118,21 @@ function initializeTabPanel() {
     btn.addEventListener("click", () => {
       // Remove active class from all tab buttons and contents
       tabBtns.forEach((btn) => {
-        btn.classList.remove("text-blue-950", "font-extrabold");
+        btn.classList.remove("text-blue-800", "font-extrabold");
       });
       tabContents.forEach((content) => {
         content.style.display = "none";
       });
 
       // Add active class to the clicked tab button and show the corresponding content
-      btn.classList.add("text-blue-950", "font-extrabold");
+      btn.classList.add("text-blue-800", "font-extrabold");
       tabContents[index].style.display = "block";
 
       // animate tabContent using gsap
       gsap.from(tabContents[index], {
         display: "block",
         duration: 0.5,
-        y: 200,
+        y: 32,
         opacity: 0,
         ease: "power2.out",
       });
