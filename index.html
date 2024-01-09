@@ -35,12 +35,60 @@
               >गृहपृष्ठ</a
             >
           </li>
-          <li class="hidden lg:block">
+          <li class="hidden group relative lg:block">
             <a
-              href=""
-              class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-20 transition"
-              >परिचय</a
+              class="px-4 py-2 font-medium text-white rounded-md cursor-pointer m-0 p-0 hover:bg-white hover:bg-opacity-20 transition"
             >
+              <span> परिचय</span>
+              <i class="fa-solid fa-caret-down text-white"></i>
+            </a>
+
+            <div
+              class="dropdown hidden shadow-2xl group-hover:flex bg-white h-fit w-40 flex-col justify-start absolute rounded-lg top-8"
+            >
+              <a
+                href=""
+                class="px-4 py-2 w-full font-medium text-indigo-800 hover:bg-indigo-800 hover:text-white transition"
+                >गृहपृष्ठ</a
+              >
+              <div
+                class="drop-link px-4 py-2 w-full relative flex items-center justify-between cursor-pointer font-medium text-indigo-800 hover:bg-indigo-800 hover:text-white transition group/nested"
+              >
+                गृहपृष्ठ <i class="fa-solid fa-caret-right"></i>
+                <div
+                  class="inner-dropdown hidden hover:flex group-hover/nested:flex left-full top-0 overflow-hidden shadow-2xl bg-blue-50 h-fit w-40 flex-col justify-start absolute rounded-lg"
+                >
+                  <a
+                    href=""
+                    class="px-4 py-2 w-full font-medium text-indigo-800 hover:bg-indigo-800 hover:text-white transition"
+                    >Inner Link 1</a
+                  >
+
+                  <a
+                    href=""
+                    class="px-4 py-2 w-full font-medium text-indigo-800 hover:bg-indigo-800 hover:text-white transition"
+                    >Inner Link</a
+                  >
+
+                  <a
+                    href=""
+                    class="px-4 py-2 w-full font-medium text-indigo-800 hover:bg-indigo-800 hover:text-white transition"
+                    >Inner Link</a
+                  >
+
+                  <a
+                    href=""
+                    class="px-4 py-2 w-full font-medium text-indigo-800 hover:bg-indigo-800 hover:text-white transition"
+                    >Inner Link</a
+                  >
+                </div>
+              </div>
+              <a
+                href=""
+                class="px-4 py-2 w-full font-medium text-indigo-800 hover:bg-indigo-800 hover:text-white transition"
+                >गृहपृष्ठ</a
+              >
+            </div>
           </li>
           <li class="hidden lg:block">
             <a
@@ -112,19 +160,72 @@
               >गृहपृष्ठ</a
             >
           </li>
-          <li class="">
+          <li
+            class="group rounded-md hover:bg-white hover:bg-opacity-10 transition"
+          >
             <a
-              href=""
-              class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-20 transition"
-              >परिचय</a
-            >
+              class="px-4 py-2 font-medium text-white rounded-md flex gap-8 items-center hover:bg-white hover:bg-opacity-10 transition"
+              >परिचय <i class="fa-solid fa-caret-down"></i
+            ></a>
+            <div class="dropdown flex-col px-3 hidden group-hover:flex">
+              <a
+                href=""
+                class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-10 transition"
+                >Link 1</a
+              >
+              <div
+                class="px-4 group/nested py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-10 transition"
+              >
+                <span class="flex items-center gap-8"
+                  >Link 2<i class="fa-solid fa-caret-down"></i>
+                </span>
+                <div
+                  class="inner-dropdown mt-2 hidden group-hover/nested:flex flex-col"
+                >
+                  <a
+                    href=""
+                    class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-20 transition"
+                    >Inner Link 1</a
+                  >
+
+                  <a
+                    href=""
+                    class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-20 transition"
+                    >Inner Link</a
+                  >
+
+                  <a
+                    href=""
+                    class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-20 transition"
+                    >Inner Link</a
+                  >
+
+                  <a
+                    href=""
+                    class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-20 transition"
+                    >Inner Link</a
+                  >
+                </div>
+              </div>
+
+              <a
+                href=""
+                class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-20 transition"
+                >Link 3</a
+              >
+              <a
+                href=""
+                class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-20 transition"
+                >Link 4</a
+              >
+            </div>
           </li>
           <li class="">
             <a
               href=""
               class="px-4 py-2 font-medium text-white rounded-md hover:bg-white hover:bg-opacity-20 transition"
-              >नागरिक वडापत्र</a
-            >
+              >नागरिक वडापत्र
+            </a>
           </li>
           <li class="">
             <a
@@ -1340,6 +1441,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.25/bundled/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
     <script src="./scripts/script.js"></script>
     <script src="./scripts/script2.js"></script>
   </body>
